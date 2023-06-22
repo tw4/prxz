@@ -31,10 +31,10 @@ const Navbar = () => {
         </div>
         {/* Right */}
         <div className="flex flex-row space-x-3 items-center justify-end w-[33%] ">
-          <button className="px-3 py-2 bg-gray-50 shadow-lg rounded-lg border-[1px] border-gray-200 hover:shadow-md">
+          <button className="px-3 py-2 bg-gray-50 shadow-lg rounded-lg border-[1px] border-gray-200 hover:shadow-md active:ring-2 active:ring-black active:outline-none">
             Login
           </button>
-          <button className="px-3 py-2 bg-black text-white rounded-lg hover:bg-gray-800">
+          <button className="px-3 py-2 bg-black text-white rounded-lg hover:bg-gray-800  border-2 border-white focus:outline-none focus:ring-2 focus:ring-black ">
             Register
           </button>
         </div>
