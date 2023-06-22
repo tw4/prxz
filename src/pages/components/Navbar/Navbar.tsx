@@ -2,7 +2,7 @@
 const Navbar = () => {
   return (
     <div className="fixed top-10 flex w-full justify-center bg-white-50">
-      <nav className="flex flex-row p-3 items justify-between w-[55vw] h-[70px] bg-white/30 backdrop-blur-xl rounded-xl border-[1px] border-gray-200 lg:w-[90vw] ">
+      <nav className="flex flex-row p-3 items justify-between w-[55vw] h-[70px] bg-white/50 backdrop-blur-xl rounded-xl border-[1px] border-gray-200 lg:w-[90vw] ">
         {/* Left */}
         <div className="flex flex-row items-center w-[33%] justify-around space-x-3">
           <img
