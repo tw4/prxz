@@ -41,17 +41,18 @@ const PricingCard: FC<IProps> = ({
         </a>
       </div>
       <div className="mt-10">
-        {planFeatures.map((feat, index) => {
-          return (
-            <div key={index}>
-              <div className="flex flex-row items-center text-start">
-                <VscDebugBreakpointLogUnverified className="text-gray-500 text-4xl" />
-                <p className="text-sm text-gray-500">{feat}</p>
+        {planFeatures &&
+          planFeatures.map((feat, index) => {
+            return (
+              <div key={index}>
+                <div className="flex flex-row items-center text-start">
+                  <VscDebugBreakpointLogUnverified className="text-gray-500 text-4xl" />
+                  <p className="text-sm text-gray-500">{feat}</p>
+                </div>
+                <hr className="mt-5 mb-5 w-full border-[1px] border-gray-200" />
               </div>
-              <hr className="mt-5 mb-5 w-full border-[1px] border-gray-200" />
-            </div>
-          );
-        })}
+            );
+          })}
       </div>
     </div>
   );
